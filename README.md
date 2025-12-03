@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Flexy UI AI SaaS Landing Page Template
 
-## Getting Started
+**A modern, minimal, delightful, and fully customizable open-source AI SaaS landing page template built with [Flexy UI](https://www.flexyui.com).**
 
-First, run the development server:
+## Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Nextjs - v16
+2. Tailwind CSS - v4
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center"> <a><img src="https://img.shields.io/badge/Made%20With-FlexyUI-6C5CE7?style=flat-square" /></a> <a><img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" /></a> <a><img src="https://img.shields.io/badge/PRs-Welcome-blue?style=flat-square" /></a> <a><img src="https://img.shields.io/github/stars/yourusername/yourrepo?style=flat-square" /></a> </p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![AI SaaS landing page template](./public/ai-saas-landing-page-template.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Overview
 
-## Learn More
+Most landing pages follow a very similar structure, usually a combination of **11 essential UI components**.
 
-To learn more about Next.js, take a look at the following resources:
+1. Navbar
+2. Hero
+3. Stats
+4. Section Heading
+5. Features Section
+6. Services (Bento Grid)
+7. Testimonials
+8. Pricing
+9. CTA Banner
+10. FAqs Section
+11. Footer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This template includes all of them, powered by **[Flexy UI](https://www.flexyui.com)**, which provides multiple variants for each section so you can:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Swap layouts
+- Change themes
+- Customize colors
+- Reorder or repurpose sections
 
-## Deploy on Vercel
+Perfect for SaaS products, AI tools, indie hacker projects, and startup landing pages.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Feature section](./public/feature-section.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⭐ Support
+
+If you find this template helpful, show some love by tapping star ⭐ on GitHub — it helps the project grow.
+
+![Pricing section](./public/pricing-section.png)
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
