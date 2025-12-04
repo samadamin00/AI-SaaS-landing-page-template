@@ -19,7 +19,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ id, title, description, icon 
         </div>
 
         {/* Decorative Number */}
-        <div className="pointer-events-none text-6xl font-bold text-slate-500 opacity-[0.12] transition-opacity select-none group-hover:opacity-10">
+        <div className="text-6xl font-bold text-slate-500 opacity-[0.12] transition-opacity select-none group-hover:opacity-10">
           0{id}
         </div>
       </div>

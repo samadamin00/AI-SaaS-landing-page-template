@@ -2,7 +2,7 @@ import { Testimonial } from '../components/testimonial'
 
 export const testimonialsData: Testimonial[] = [
   {
-    name: 'Ahmed',
+    name: 'John Doe',
     title: 'Startup Founder',
     feedback:
       'I launched a fully designed website in under 10 minutes. The AI understood exactly what I needed — absolutely game-changing!',
@@ -22,7 +22,7 @@ export const testimonialsData: Testimonial[] = [
     title: 'Freelance Designer',
     feedback:
       'The AI-generated layouts look professional and clean. It saves me hours of design time and makes my work 10x faster.',
-    image: 'https://i.pravatar.cc/150?img=48',
+    image: 'https://i.pravatar.cc/150?img=41',
     stars: 5,
   },
 ]
