@@ -61,7 +61,7 @@ const StatsCard = ({ icon, label, endValue, delay, description }: StatProps) => 
   }, [endValue, delay])
 
   return (
-    <div className="group relative transform overflow-hidden rounded-xl border border-[#EBEEF7] bg-white transition-all duration-300 hover:scale-105 hover:shadow-xl">
+    <div className="group relative min-h-full transform overflow-hidden rounded-xl border border-[#EBEEF7] bg-white transition-all duration-300 hover:scale-102 md:hover:scale-104 hover:shadow-xl">
       <div className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
       <div className="absolute top-0 right-0 left-0 h-20 bg-[#f4f4f4]" />
 
@@ -70,7 +70,7 @@ const StatsCard = ({ icon, label, endValue, delay, description }: StatProps) => 
           <div className="rounded-full bg-purple-100 p-3 text-[#933FE1] transition-all duration-500 group-hover:scale-110 group-hover:bg-purple-200">
             {icon}
           </div>
-          <span className="bg-[#933FE1] bg-clip-text text-5xl font-bold text-transparent">
+          <span className="bg-[#933FE1] bg-clip-text text-3xl sm:text-4xl lg:text-5xl font-bold text-transparent">
             {currentValue < 10 ? `0${currentValue}` : currentValue}
           </span>
         </div>
@@ -130,7 +130,7 @@ const StatsSection = () => {
   return (
     <section
       id="stats-section"
-      className="mx-auto max-w-5xl px-3 py-24"
+      className="mx-auto max-w-5xl px-4 py-24"
       aria-label="Key metrics and statistics"
     >
       <SectionHeading
@@ -138,7 +138,7 @@ const StatsSection = () => {
         title="Build Faster, Smarter & More Beautiful Websites with AI"
         subtitle="Our AI-powered platform automates design, layout, content, and branding — helping you launch stunning websites in minutes instead of weeks."
       />
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8  ">
         {stats.map((stat, index) => (
           <div
             key={index}
